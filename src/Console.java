@@ -69,7 +69,7 @@ public class Console {
 		
 		writeJavaHeader(out);
 		writeJava(in, out);
-		writeJavaFooter(out);
+		
 		
 		out.println(in.nextLine());
 		in.close();
